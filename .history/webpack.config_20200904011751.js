@@ -12,7 +12,7 @@ module.exports = {
   output: {
     libraryTarget: "commonjs",
     path: path.join(__dirname, ".webpack"),
-    filename: "function.js",
+    filename: "[name].js",
     sourceMapFilename: "[file].map",
   },
   optimization: {

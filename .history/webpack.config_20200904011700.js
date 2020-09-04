@@ -4,7 +4,7 @@ const nodeExternals = require("webpack-node-externals");
 
 module.exports = {
   mode: slsw.lib.webpack.isLocal ? "development" : "production",
-  entry: "./handler.ts",
+  entry: "index.js",
   externals: [nodeExternals()],
   resolve: {
     extensions: [".js", ".jsx", ".json", ".ts", ".tsx"],
@@ -12,7 +12,7 @@ module.exports = {
   output: {
     libraryTarget: "commonjs",
     path: path.join(__dirname, ".webpack"),
-    filename: "function.js",
+    filename: "[name].js",
     sourceMapFilename: "[file].map",
   },
   optimization: {

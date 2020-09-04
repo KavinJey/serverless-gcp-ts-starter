@@ -2,7 +2,7 @@
   "name": "serverless-ts-gcp-starter",
   "version": "1.0.0",
   "description": "Serverless webpack example using Typescript",
-  "main": "main.js",
+  "main": "handler.js",
   "scripts": {
     "test": "jest"
   },
