@@ -1,4 +1,4 @@
-# Serverless GCP TypeScript starter
+# Serverless TypeScritp starter
 
 A serverless starter that adds TypeScript syntax, serverless-offline, environment variables and unit test support. Based on the aws-nodejs-typescript template provided by the serverless framework.
 
