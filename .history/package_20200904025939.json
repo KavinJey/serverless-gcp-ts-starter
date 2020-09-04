@@ -2,9 +2,10 @@
   "name": "serverless-ts-gcp-starter",
   "version": "1.0.0",
   "description": "Serverless webpack example using Typescript",
-  "main": "handler.ts",
+  "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "unit-test": "mocha test/index.test.js test/*unit*test.js test/*integration*test.js --timeout=2000 --exit"
   },
   "dependencies": {
     "@google-cloud/functions-framework": "^1.7.1",

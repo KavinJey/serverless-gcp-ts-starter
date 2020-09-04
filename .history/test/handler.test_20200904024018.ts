@@ -6,5 +6,5 @@ test("hello", async () => {
     expect(typeof response.body).toBe("string");
   };
 
-  await handler.hello(null, null);
+  await handler.hello(null, callback);
 });

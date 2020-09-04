@@ -92,5 +92,3 @@ typings/
 
 # Environment variables
 env.yml
-
-.history/

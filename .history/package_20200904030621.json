@@ -4,7 +4,8 @@
   "description": "Serverless webpack example using Typescript",
   "main": "handler.ts",
   "scripts": {
-    "test": "jest"
+    "unit-test": "mocha test/index.test.js test/*unit*test.js test/*integration*test.js --timeout=2000 --exit",
+    "test": "npm run unit-test"
   },
   "dependencies": {
     "@google-cloud/functions-framework": "^1.7.1",

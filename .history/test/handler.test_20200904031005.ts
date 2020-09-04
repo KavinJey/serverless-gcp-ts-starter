@@ -7,4 +7,5 @@ test("hello", async () => {
   };
 
   await handler.hello(null, null);
+  callback();
 });
